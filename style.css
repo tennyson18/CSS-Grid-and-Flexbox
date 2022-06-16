@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f2f2f2;
+}
+main{
+    width: 50%; 
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card1{
+    background-color: #e28525;
+    padding: 2em;
+    height: 70%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.card1 h2{
+    color: white;
+    font-size: 30px;
+    padding-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.card1 p{
+    color: white;
+    font-size: 13px;
+    padding-bottom: 70px;
+    font-family: 'Poppins', sans-serif;
+}
+.card2{
+    background-color: #016972;
+    padding: 2em;
+    height: 70%;
+}
+.card2 h2{
+    color: white;
+    font-size: 30px;
+    padding-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.card2 p{
+    color: white;
+    font-size: 13px;
+    padding-bottom: 70px;
+    font-family: 'Poppins', sans-serif;
+}
+.card3{
+    background: #00403f;
+    padding: 2em;
+    height: 70%;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card3 h2{
+    color: white;
+    font-size: 30px;
+    padding-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.card3 p{
+    color: white;
+    font-size: 13px;
+    padding-bottom: 70px;
+    font-family: 'Poppins', sans-serif;
+}
+.btn1{
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    color: #e28525;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    font-weight: bold;
+    height: 13%;
+    outline: none;
+}
+.btn2{
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    color: #016972;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    font-weight: bold;
+    height: 13%;
+}
+.btn3{
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    color: #00403f;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    font-weight: bold;
+    height: 13%;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    transition: 0.4s;
+}
